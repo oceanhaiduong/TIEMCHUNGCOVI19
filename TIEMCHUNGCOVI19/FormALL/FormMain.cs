@@ -370,7 +370,7 @@ namespace TIEMCHUNGCOVI19.FormALL
             obj.AxisX.Interval = 1;
             obj.AxisY.Interval = 5;
 
-            chartColumn.Series["ChartA"].Points.Clear(); // Xóa dữ liệu hiện có 
+            chartColumn.Series["ChartA"].Points.Clear(); // Xóa dữ liệu hiện đang có 
             GetListCOVID19 listCovid19  = new GetListCOVID19();
             int index = 0;
             chartColumn.Series["ChartA"].Color = Color.Blue;
